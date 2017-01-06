@@ -1,6 +1,7 @@
 package com.shaker.practice.web.servlet;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,6 +11,7 @@ import java.io.PrintWriter;
 /**
  * Created by yinghuihong on 2017/1/6.
  */
+@WebServlet("/")
 public class HelloWorldServlet extends HttpServlet {
 
     @Override

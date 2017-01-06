@@ -2,17 +2,19 @@
         "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
+<!--suppress ALL -->
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
 
-    <servlet>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <servlet-class>com.shaker.practice.web.servlet.HelloWorldServlet</servlet-class>
-    </servlet>
+    <!--<servlet>-->
+        <!--<servlet-name>HelloWorld</servlet-name>-->
+        <!--<servlet-class>com.shaker.practice.web.servlet.HelloWorldServlet</servlet-class>-->
+        <!--<load-on-startup>1</load-on-startup>-->
+    <!--</servlet>-->
 
-    <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>HelloWorld</servlet-name>-->
+        <!--<url-pattern>/HelloWorld</url-pattern>-->
+    <!--</servlet-mapping>-->
 
 </web-app>
