@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 /**
  * Created by yinghuihong on 2017/1/6.
  */
-@WebServlet("/")
+@WebServlet("/HelloWorld_annotation")
 public class HelloWorldServlet extends HttpServlet {
 
     @Override
@@ -23,7 +23,7 @@ public class HelloWorldServlet extends HttpServlet {
         out.println("<title>Hello World!</title>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<h1>Hello World!</h1>");
+        out.println("<h1>Hello World servlet!</h1>");
         out.println("</body>");
         out.println("</html>");
     }

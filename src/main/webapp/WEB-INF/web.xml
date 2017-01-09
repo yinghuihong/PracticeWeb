@@ -6,15 +6,25 @@
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
 
-    <!--<servlet>-->
-        <!--<servlet-name>HelloWorld</servlet-name>-->
-        <!--<servlet-class>com.shaker.practice.web.servlet.HelloWorldServlet</servlet-class>-->
-        <!--<load-on-startup>1</load-on-startup>-->
-    <!--</servlet>-->
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>com.shaker.practice.web.servlet.HelloWorldServlet</servlet-class>
+    </servlet>
 
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>HelloWorld</servlet-name>-->
-        <!--<url-pattern>/HelloWorld</url-pattern>-->
-    <!--</servlet-mapping>-->
+    <servlet>
+        <servlet-name>jsp</servlet-name>
+        <jsp-file>/test_jsp.jsp</jsp-file>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>jsp</servlet-name>
+        <url-pattern>/test_jsp</url-pattern>
+    </servlet-mapping>
 </web-app>
